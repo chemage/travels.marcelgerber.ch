@@ -1,0 +1,38 @@
+---
+layout: base.njk
+---
+{% if cover %}
+<header class="post-hero">
+  <img src="{{ cover }}" alt="" sizes="100vw" loading="eager" fetchpriority="high">
+  <div class="shade"></div>
+  <div class="inner">
+    {% if location %}<p class="plate">{{ location.name | placeShort }}</p>{% endif %}
+    <h1>{{ title }}</h1>
+  </div>
+</header>
+{% else %}
+<header class="post-head">
+  {% if location %}<p class="plate">{{ location.name | placeShort }}</p>{% endif %}
+  <h1>{{ title }}</h1>
+</header>
+{% endif %}
+
+<div class="byline">
+  <time datetime="{{ date | isoDate }}">{{ date | dateFmt }}</time>
+  {% if tags %}<ul class="chips">{% for t in tags %}<li><a href="/tag/{{ t | slug }}/">{{ t }}</a></li>{% endfor %}</ul>{% endif %}
+</div>
+
+<article class="content" lang="{{ lang or 'en' }}">
+{{ content | safe }}
+</article>
+{% include "giscus.njk" %}
+
+
+{% if bloggerId and page.inputPath.includes('/posts/') %}
+{% set nb = collections.posts | adjacent(page.url) %}
+<nav class="more" aria-label="Other stories">
+  {% if nb.older %}<a class="prev" href="{{ nb.older.url }}"><span>Before this</span><strong>{{ nb.older.data.title }}</strong></a>{% else %}<span></span>{% endif %}
+  {% if nb.newer %}<a class="next" href="{{ nb.newer.url }}"><span>Next story</span><strong>{{ nb.newer.data.title }}</strong></a>{% endif %}
+</nav>
+{% endif %}
+<script src="/js/lightbox.js" defer></script>

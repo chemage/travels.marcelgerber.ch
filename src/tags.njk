@@ -1,0 +1,10 @@
+---
+layout: base.njk
+title: Places and topics
+permalink: /tags/
+eleventyExcludeFromCollections: true
+---
+<div class="wrap narrow">
+  <h1 class="page-title">Places and topics</h1>
+  <ul class="chips big">{% for t in collections.tagList %}<li><a href="/tag/{{ t.slug }}/">{{ t.tag }} <small>{{ t.posts | length }}</small></a></li>{% endfor %}</ul>
+</div>

@@ -1,0 +1,39 @@
+---
+title: "Welcome to East Africa (Tanzania)"
+date: 2013-05-28T16:31:00Z
+updated: 2019-06-07T21:23:10.575Z
+lang: en
+tags: ["Visa","Malawi","Tanzania"]
+location: {"name":"Karonga, Malawi","lat":-9.588224678137706,"lng":33.771629333496094}
+bloggerId: "3644271894020366043"
+permalink: "/2013/05/welcome-to-east-africa-tanzania.html"
+cover: "/images/2013-05-28-welcome-to-east-africa-tanzania/IMG_8923.jpg"
+---
+
+I asked Elious from Ecolodge if he could organize my motorcycle trip back to Monkey Bay. He later told me it was organized, so I didn't give too much thought about it, although I knew I had to be in Monkey Bay at latest at six. For security I took the driver's phone number. The next morning I woke up at 4.30 and was ready at quarter to five. At that time I called the driver to see if he was up and running, but got the operator's standard message which says the correspondent isn't available. So I waited and called again around five. He then answered and said he was on his way, but arrived only about 20 minutes later. When asked why he was late, he answered he was fixing the tyre up to 8 the previous night. At 5.30 we finally left for Monkey Bay. I wanted to leave at five in order to be comfortable on time and not to have to rush as the road wasn't all good and full of potholes. But that went to the monkeys. We sped along on the tar road and I was even more scared than on the way in. We got to Monkey Bay in one piece just in time for me to catch the bus. I only lost my bottle of water on the way. Small price to pay.  
+
+<!--more-->
+
+<figure><img src="/images/2013-05-28-welcome-to-east-africa-tanzania/IMG_8923.jpg" alt="Multiple entry visa for 3 months" loading="lazy"><figcaption>Multiple entry visa for 3 months</figcaption></figure>
+
+The bus ride to Salima, close to Senga Bay on Lake Malawi, was quite uneventful and quick. From there I took a smaller bus up to Mzuzu. The operator wanted MWK 4'000 but offered me 3'500. I was squeezed on the back bench which wasn't even bolted to the frame. At every major bump which the driver failed to avoid, we hurt on the backseat. Luckily, at first I was sitting there with one adult and three teens who weren't grown up yet. After that I was on my own for a while, until I got squeezed in again by some ladies and their band of small kids. We probably were ten on that back bench. Well the whole ride lasted for about 7 seven long hours and was horrendous.  
+
+I finally got to Mzuzu and went to a church guesthouse that cost me MWK 1'000 for a dorm (about CHF 3). I ate supper there and afterward chatted with my fellow dorm mates. One of them was Mark, a New-Yorker who is volunteering for Peace Corps in Chitapa, in northern Malawi. At around nine we all went to sleep. My day had been tiresome enough for that.  
+
+The next morning we woke up at six and took the bus at 6.30 with Mark. He went back to Chitapa and I went to Karonga, the closest town to the Tanzanian border. The scenery on the road there is amazingly beautiful, and at some point after passing a long lush-green valley, went down the escarpment towards the lake. From there we were on the lake's shore most of the time. The bus ride had been easy and quick. It was not even half full.  
+
+As we got to Karonga around eleven, I decided to cross the border the same day. Walking towards the bus station, a minibus hailed me and I got in. We drove around the bus station a few times before finally heading off towards the border. It took us about an hour to get there. On the way we took on a guy with his pig. It squealed loudly every time they loaded or unloaded it.  
+
+![](/images/2013-05-28-welcome-to-east-africa-tanzania/TZ-Kilimanjaro_IMG_8921.jpg)
+
+This border crossing was one of the worst crossings ever for me. When I got to the border I was approached by several people wanting to offer their services or change money. One guy told me the other side was far and that I would need a taxi to get there. He was a bicycle taxi. He took charge of my big bag and led me to the immigration office of Malawi for my exit stamp. Once I got it he took my bag again and started loading it onto the back of his bicycle. Another guy came by and said there was a car here ready to take me over to the other side. I tried to ask how far it was to the other side, but the cycle man could get a straight answer, and the car man definitely wouldn't say it's not far. So I chose the car. Thirty seconds later I was in Tanzania's immigration office where I got a visa for 90 days multiple entry (at least if I go out to Kenya) for USD 50. From there the guy who made me take the car ride took charge of me and my bags again and took me to another driver. There he said it would cost me TSH 5'000 (about CHF 3) to go to Mbeya. What he meant was the bus station where I could catch a bus ride to Mbeya.
+
+So I took the ride, went to the bus station and paid the driver (it was difficult to know whom to pay as there always were several people talking to me and trying to get me to go with them and wanting payment for this or that). I gave him my TSH 10'000 note I had bought from Tim in Lusaka. I didn't get the 5'000 change back from him, but he swapped his note with some other guy saying I should get it from this other guy. This other guy (in a green shirt) took my bag and took it to a bus in which I went in. He tried to stay in the bus for whatever reason with other guys as well. But the operator finally threw them all out. Then I said I didn't get my change back and we drove back. I had to leave the bus as well and tried to sort it out with the green shirt man. But this one now said something about a commission and about 200 for him for whatever reason. I said he could sort it out with the taxi driver (as he thought he had kept my change) if he wanted any money. I didn't see why I should pay this guy for confusing me. Maybe that's the way in Tanzania. I got a little disheartened. I had changed MWK 2'000 to get TSH 7'500 on the black market just so I would have enough for my bus ride to Mbeya. But with my 5'000 change never coming back, I was short of 2'500. The bus took me on again after I finished fighting with the green shirt and another guy. He finally surrendered my bag and I got into the bus before getting hassled by other bus operators. All the time, at least four people tried to get my attention by shouting stuff at me for change, taxi, bus or whatever. And I got properly screwed. Fortunately the bus operator accepted my fate and took the 7'500 instead of the 10'000.  
+The scenery up to Mbeya was still amazingly beautiful.  
+
+![](/images/2013-05-28-welcome-to-east-africa-tanzania/TZ-Safari_IMG_8924.jpg)
+
+In Mbeya things went smoother although I got screwed again. But then, that's the way when you get to a new place. I paid a lot of money for a short taxi ride. But then I met this great elder American couple, Pat and Tom, working for Peace Corps in a village a little south of Mbeya. They showed me where to get accommodation and we even had supper together at the best restaurant in town. It was a bit expensive, it cost me about CHF 12 for a steak with chips and veggies and three beers. But then I have a single room with hot shower for less than that.
+
+They invited me to their village, as they have a spare bedroom. But that will be a story for another day.  
+So after two long days full of hassle, I finally got to Tanzania. I don't have a guide anymore, as my Southern Africa guide expired when I crossed the border to East Africa. Here in Tanzania is the first country I've visited where the people don't try to speak to the mzungu in English, but starts straightaway in Swahili. And when you don't understand, they just go on anyway. Kiswahili is a complex language where the noun comes before the verb and where prefixes change according to what comes next in the sentence.

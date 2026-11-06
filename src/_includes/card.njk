@@ -1,0 +1,9 @@
+<a class="card" href="{{ p.url }}" lang="{{ p.data.lang }}">
+  {% if p.data.cover %}
+  <img class="cover" src="{{ p.data.cover }}" alt="" sizes="(min-width: 64rem) 22rem, (min-width: 40rem) 45vw, 100vw">
+  {% else %}
+  <span class="cover blank" aria-hidden="true"></span>
+  {% endif %}
+  <h3>{{ p.data.title }}</h3>
+  <p class="where">{% if p.data.location %}<span class="plate">{{ p.data.location.name | placeShort }}</span>{% endif %}<time datetime="{{ p.date | isoDate }}">{{ p.date | dateFmt({ month: "short", year: "numeric", timeZone: "UTC" }) }}</time></p>
+</a>

@@ -1,0 +1,12 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tagItem
+permalink: "/search/label/{{ tagItem.tag }}/index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html><meta charset="utf-8"><title>Redirecting…</title>
+<link rel="canonical" href="{{ site.url }}/tag/{{ tagItem.slug }}/">
+<meta http-equiv="refresh" content="0; url=/tag/{{ tagItem.slug }}/">
+<p>Moved to <a href="/tag/{{ tagItem.slug }}/">/tag/{{ tagItem.slug }}/</a>.</p>

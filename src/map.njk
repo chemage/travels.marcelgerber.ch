@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Map
+permalink: /map/
+eleventyExcludeFromCollections: true
+---
+<div class="wrap">
+<h1 class="page-title">Map</h1>
+<p class="lede">Every story that has a location. Select a pin to open it.</p>
+<div id="map" class="bigmap"></div>
+</div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const pts = {{ collections.posts | mapPoints | json | safe }};
+  const map = L.map("map").setView([20, 10], 2);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18, attribution: "© OpenStreetMap contributors"
+  }).addTo(map);
+  const group = [];
+  for (const p of pts) {
+    const m = L.marker([p.lat, p.lng]).addTo(map);
+    const a = document.createElement("a"); a.href = p.url; a.textContent = p.title;
+    const d = document.createElement("div");
+    d.append(a, document.createElement("br"), `${p.place} · ${p.date}`);
+    m.bindPopup(d);
+    group.push([p.lat, p.lng]);
+  }
+  if (group.length) map.fitBounds(group, { padding: [30, 30] });
+</script>

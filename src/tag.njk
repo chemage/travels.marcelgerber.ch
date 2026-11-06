@@ -1,0 +1,18 @@
+---
+layout: base.njk
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tagItem
+permalink: "/tag/{{ tagItem.slug }}/"
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ tagItem.tag }}"
+---
+<section class="wrap">
+  <h1 class="page-title">{{ tagItem.tag }}</h1>
+  <p class="lede">{{ tagItem.posts | length }} {% if tagItem.posts | length == 1 %}story{% else %}stories{% endif %}</p>
+  <div class="grid">
+    {% for p in tagItem.posts %}{% include "card.njk" %}{% endfor %}
+  </div>
+</section>

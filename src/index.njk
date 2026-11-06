@@ -1,0 +1,37 @@
+---
+layout: base.njk
+bodyClass: home
+pagination:
+  data: collections.posts
+  size: 12
+  alias: pagePosts
+permalink: "{% if pagination.pageNumber == 0 %}/{% else %}/page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyExcludeFromCollections: true
+---
+{% set first = pagePosts[0] %}
+{% set hero = pagination.pageNumber == 0 and first.data.cover %}
+{% if hero %}
+<a class="hero" href="{{ first.url }}" lang="{{ first.data.lang }}">
+  <img src="{{ first.data.cover }}" alt="" sizes="100vw" loading="eager" fetchpriority="high">
+  <span class="shade"></span>
+  <span class="inner">
+    {% if first.data.location %}<span class="plate">{{ first.data.location.name | placeShort }}</span>{% endif %}
+    <span class="h1">{{ first.data.title }}</span>
+    <span class="when">Latest story, <time datetime="{{ first.date | isoDate }}">{{ first.date | dateFmt }}</time></span>
+  </span>
+</a>
+{% endif %}
+
+<section class="wrap">
+  <h2 class="section">{% if pagination.pageNumber == 0 %}More stories{% else %}Stories, page {{ pagination.pageNumber + 1 }}{% endif %}</h2>
+  <div class="grid">
+    {% for p in pagePosts %}
+      {% if not (hero and loop.first) %}{% include "card.njk" %}{% endif %}
+    {% endfor %}
+  </div>
+  <nav class="pager" aria-label="Pages">
+    {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer stories</a>{% else %}<span></span>{% endif %}
+    <span>{{ pagination.pageNumber + 1 }} of {{ pagination.pages | length }}</span>
+    {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older stories</a>{% else %}<span></span>{% endif %}
+  </nav>
+</section>

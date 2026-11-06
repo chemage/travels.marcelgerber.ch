@@ -1,0 +1,14 @@
+node_modules/
+_site/
+.DS_Store
+drafts/
+.cache/
+upgrade-report.json
+
+# one-off migration tools and data (kept locally, not published)
+scripts/
+source/
+images-*.json
+upgrade-report.json
+missing-originals.md
+drafts/

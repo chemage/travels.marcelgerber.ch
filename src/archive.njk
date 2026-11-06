@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Archive
+permalink: /archive/
+eleventyExcludeFromCollections: true
+---
+<div class="wrap narrow">
+  <h1 class="page-title">Archive</h1>
+  <p class="lede">{{ collections.posts | length }} stories, newest first.</p>
+  {% for y in collections.posts | groupByYear %}
+  <section class="year">
+    <h2>{{ y[0] }}</h2>
+    <ul class="plain">
+      {% for p in y[1] %}<li><time datetime="{{ p.date | isoDate }}">{{ p.date | dateFmt({ day: "numeric", month: "short", timeZone: "UTC" }) }}</time><a href="{{ p.url }}">{{ p.data.title }}</a>{% if p.data.location %}<span class="loc">{{ p.data.location.name | placeShort }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
